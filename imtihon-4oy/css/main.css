@@ -1,0 +1,133 @@
+html {
+   box-sizing: border-box;
+   height: 100%;
+   scroll-behavior: smooth;
+ }
+ 
+ *,
+ *::before,
+ *::after {
+   box-sizing: inherit;
+ }
+
+ h1,h2,h3,h4,h5,h6, p {
+  margin: 0;
+  padding: 0;
+ }
+ 
+ body {
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+   padding: 0;
+   margin: 0;
+   font-family: 'Arial', sans-serif;
+   font-size: 16px;
+   line-height: 1.5;
+   background: #EDF3F8;
+   overflow-x: hidden;
+ }
+ 
+ img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+ }
+ 
+ .container {
+     max-width: 1240px;
+     max-height: 5755px;
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+.menu {   
+   background: #FFFFFF;
+   border-radius: 15px;
+   max-width: 1060px;
+   width: 100%;
+   margin: 50px auto;
+}
+
+.menu_container {
+   padding-top: 105px;
+   padding-bottom: 105px;
+   padding-left: 75px;
+   padding-right: 75px;
+   display: flex;
+   gap: 50px;
+   align-items: center;
+}
+
+.menu_heading {
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 50px;
+   color: #0A033C;
+   max-width: 355px;
+   margin-top: 15px;
+   margin-bottom: 39px;
+}
+
+.menu_right {
+   margin-top: 50px;
+}
+
+.menu_label {
+   background: #FFFFFF;
+   border: 1px solid #DEDDE4;
+   border-radius: 10px;
+   display: flex;
+   gap: 15px;
+   max-width: 340px;
+   padding: 5px;
+}
+
+.menu_l_input {
+   border: none;
+   outline: none;
+   color: #5D5A6F;
+}
+
+.menu_l-text {
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 30px;
+   text-align: center;
+   color: #5D5A6F;
+}
+
+.menu_lb-label {
+   display: flex;
+   gap: 15px;
+   background: #FFFFFF;
+   border: 1px solid #DEDDE4;
+   border-radius: 10px;
+   padding: 10px 16px;
+   margin-bottom: 20px;
+}
+
+.menu-l_heading {
+   margin-bottom: 5px;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 30px;
+   color: #0A033C;
+}
+
+.menu_l-btn {
+   background: #9C4DF4;
+   border-radius: 10px;
+   padding: 10px 150px;
+   border: none;
+}
+
+.menu-l_link {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 30px;
+   text-align: center;
+   color: #FFFFFF;
+   text-decoration: none;
+}
